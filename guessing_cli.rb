@@ -5,7 +5,7 @@ def run_guessing_game
   if guess == (1..6)
     "You guessed the correct number!"
   else
-    "Goodbye!"
+    puts "Goodbye!"
   end
 
 end
